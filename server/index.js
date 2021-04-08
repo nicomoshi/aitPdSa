@@ -51,7 +51,7 @@ app.post("/register", (req, res) => {
     }
 
     db.query(
-      "INSERT INTO users (username, password) VALUES (?,?)",
+      "INSERT INsadTO users (username, password) VALUES (?,?)",
       [username, hash],
       (err, result) => {
         console.log(err);
