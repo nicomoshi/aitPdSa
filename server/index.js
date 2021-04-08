@@ -62,7 +62,7 @@ app.post("/register", (req, res) => {
 
 app.get("/login", (req, res) => {
   if (req.session.user) {
-    res.send({ loggedIn: true, user: req.session.user });
+    res.send({ logasdfgedIn: true, user: req.session.user });
   } else {
     res.send({ loggedIn: false });
   }
